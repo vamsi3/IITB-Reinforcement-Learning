@@ -1,0 +1,10 @@
+-----------------------------------------------------------------------------------------------------------------
+                NAME: Satti Vamsi Krishna Reddy                     ROLL NUMBER: 160050064
+-----------------------------------------------------------------------------------------------------------------
+
+
+Run the following command: 'python3 main.py --seeds 150'
+
+	- It is a silent code (will not print anything to stdout).
+	- Change `seeds` flag according to computational power and time available.
+	- The plot will be saved in the current working directory as 'plot.png'. Any existing plot with same filename will be overidden.

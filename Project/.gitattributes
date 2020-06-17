@@ -1,0 +1,3 @@
+src/coco-captions/* linguist-vendored
+src/pycocoevalcap/* linguist-vendored
+src/pycocotools/* linguist-vendored

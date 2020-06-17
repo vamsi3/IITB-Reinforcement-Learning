@@ -1,0 +1,9 @@
+-----------------------------------------------------------------------------------------------------------------
+                NAME: Satti Vamsi Krishna Reddy                     ROLL NUMBER: 160050064
+-----------------------------------------------------------------------------------------------------------------
+
+Only the official Python, Numpy and PuLP documentation were consulted for programming. Specifically, the following URLs were referred for syntax:
+
+    [1] https://docs.python.org/3/
+    [2] https://docs.scipy.org/doc/numpy/reference/
+    [3] https://www.coin-or.org/PuLP/

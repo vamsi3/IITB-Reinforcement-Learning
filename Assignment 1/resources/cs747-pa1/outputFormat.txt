@@ -1,0 +1,10 @@
+../instances/i-2.txt, round-robin, 33, 0.7, 20, 4.3
+../instances/i-2.txt, round-robin, 0, 0.1, 10, 1.22
+../instances/i-1.txt, epsilon-greedy, 0, 0.333, 198, 0
+../instances/i-3.txt, epsilon-greedy, 2, 0.002, 77, -3.4
+../instances/i-1.txt, epsilon-greedy, 5982, 0.01, 20000, 34
+../instances/i-3.txt, ucb, 33, 0.403, 2, 0.7
+../instances/i-3.txt, kl-ucb, 33, 0.403, 95, 3.3
+../instances/i-2.txt, thompson-sampling, 10, 0.3, 4, 3.01
+../instances/i-3.txt, thompson-sampling, 49, 0.1, 67780, 222
+../instances/i-1.txt, kl-ucb, 2, 0.1, 201, 23.06

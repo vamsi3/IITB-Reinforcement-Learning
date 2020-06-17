@@ -1,0 +1,18 @@
+-----------------------------------------------------------------------------------------------------------------
+                NAME: Satti Vamsi Krishna Reddy                     ROLL NUMBER: 160050064
+-----------------------------------------------------------------------------------------------------------------
+
+ABOUT CODE:
+
+    [1] src/lib/mdp.py contains the `MDP` class for loading MDPs from file.
+    [2] src/lib/planners.py contains the `LinearProgramming`, `HowardPolicyIteration` classes which implement the respective algorithms.
+    [3] src/lin/policy.py contains the `Policy` class.
+
+
+ABOUT MDP CONSTRUCTION:
+    
+    [4] My construction of MDP can infact be generalized to `N` splits (here `N` = 2) of discount factor intervals. Let `gamma[0..N-1]` denote the points of interest. Here in this case, we have `gamma[0]` = 0.4 and `gamma[1]` = 0.75 as our points of interest. We'll consider N+1 states in our construction.
+        - For every `i=0..N-1` take `Reward[i][0][i] = gamma[i]` and `Reward[N][0][N] = 1`. Rest all rewards are 0.
+        - For every `i=0..N` take `Transition[i][0][i] = 1 and Transition[i][1][N] = 1`. Rest all transition probabilities are 0.
+
+    [5] This construction can be proven theoretically to satisfy the requirement in the question.

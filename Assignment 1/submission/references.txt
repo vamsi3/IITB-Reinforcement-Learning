@@ -1,0 +1,14 @@
+-----------------------------------------------------------------------------------------------------------------
+                NAME: Satti Vamsi Krishna Reddy                     ROLL NUMBER: 160050064
+-----------------------------------------------------------------------------------------------------------------
+
+
+The following two papers of UCB and KL-UCB algorithms were consulted for a sharper understanding of the algorithms.
+
+    [1] http://www.jmlr.org/papers/volume3/auer02a/auer02a.pdf
+    [2] https://arxiv.org/pdf/1102.2490.pdf
+
+For programming, only the official Python & Numpy Docs were consulted for reference. Specifically, the following URLs were referred to for syntax.
+
+    [3] https://docs.python.org/3/
+    [4] https://docs.scipy.org/doc/numpy/reference/

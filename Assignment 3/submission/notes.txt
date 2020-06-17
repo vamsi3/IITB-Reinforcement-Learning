@@ -1,0 +1,15 @@
+-----------------------------------------------------------------------------------------------------------------
+                NAME: Satti Vamsi Krishna Reddy                     ROLL NUMBER: 160050064
+-----------------------------------------------------------------------------------------------------------------
+
+ABOUT CODE:
+
+    [1] src/lib/solvers.py contains the `Naive`, `SARSA`, `TDLambda`, `TDZero` classes which implement the respective algorithms.
+    [2] src/lib/mdp.py contains the `Trajectory` class for loading trajectory from file.
+
+
+ABOUT CHOICE OF ALGORITHM:
+    
+    [4] `Naive` algorithm is described here as follows - We emperically try to estimate the transition and reward functions of the underlying MDPs through enumerating the counts of various instances, i.e. how many times a state s1 goes to s2 via. action a1. Then, we estimate the policy (which can be a stochastic policy too) by counting how many times action a is taken from state s. All the sums are normalized accordingly to get probabilities. We then run the value iteration algorithm to estimate the value function of the underlying policy used.
+
+    [5] After extensive testing and observation with various self generated testcases for errors, I found `Naive` to consistently perform better. Infact, the runtime too is much faster. This is logical to me since it completely utilizes all the known information and infact best tries to mimic the process that generated the trajectory.
